@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FileSet>
+    <FileTuple>
+        <SrcFile>C:\Users\ryanxjli\Desktop\1.reg</SrcFile>
+        <DestFile>C:\Users\ryanxjli\Desktop\新建文件夹\</DestFile>
+    </FileTuple>
+    <FileTuple>
+        <SrcFile>C:\Users\ryanxjli\Desktop\2.reg</SrcFile>
+        <DestFile>C:\Users\ryanxjli\Desktop\新建文件夹\</DestFile>
+    </FileTuple>
+    <FileTuple>
+        <SrcFile>C:\Users\ryanxjli\Desktop\3.reg</SrcFile>
+        <DestFile>C:\Users\ryanxjli\Desktop\新建文件夹\</DestFile>
+    </FileTuple>
+</FileSet>

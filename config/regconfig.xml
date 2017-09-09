@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RegOperates>
+    <ReadValues>
+        <Key>HKEY_CURRENT_USER</Key>
+        <SubKey>Software\\Microsoft\\Windows\\CurrentVersion\\Explorer</SubKey>
+        <ValueName>EnableAutoTray,CleanShutdown,ShellState</ValueName>
+    </ReadValues>
+	<ReadValues>
+        <Key>HKEY_LOCAL_MACHINE</Key>
+        <SubKey>SOFTWARE\\Wow6432Node\\Tencent\\QQPCMgr</SubKey>
+        <ValueName>ClientSwitchValid,defDocProBackUpPath</ValueName>
+    </ReadValues>
+    <CreateKey>
+        <Key>HKEY_CURRENT_USER</Key>
+        <SubKey>Software\Microsoft\Windows\CurrentVersion\Explorer</SubKey>
+        <KeyName>MyNewKey1,MyNewKey2</KeyName>
+    </CreateKey>
+    <SetKeyValue>
+        <Key>HKEY_CURRENT_USER</Key>
+        <SubKey>Software\Microsoft\Windows\CurrentVersion\Explorer\MyNewKey1</SubKey>
+        <Value>ValueName|ValueContent|REG_SZ,Val|D:\qqpcmgr_docpro|REG_BINARY</Value>
+    </SetKeyValue>
+    <DelKeyValue>
+        <Key>HKEY_CURRENT_USER</Key>
+        <SubKey>Software\Microsoft\Windows\CurrentVersion\Explorer\MyNewKey1</SubKey>
+        <Value>Val</Value>
+    </DelKeyValue>
+    <DelKey>
+        <Key>HKEY_CURRENT_USER</Key>
+        <SubKey>Software\Microsoft\Windows\CurrentVersion\Explorer</SubKey>
+        <KeyName>MyNewKey1,MyNewKey2</KeyName>
+    </DelKey>
+</RegOperates>

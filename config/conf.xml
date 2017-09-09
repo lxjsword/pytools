@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppSet>
+    <App name="QQ" path="C:\Program Files\Tencent\QQ\Bin\QQ.exe" auto="True"/>
+    <App name="Chrome" path="C:\Users\ryanxjli\AppData\Local\Google\Chrome\Application\chrome.exe" auto="True"/>
+    <App name="PdfReader" path="C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" auto="False"/>
+	<App name="QQMusic" path="C:\Program Files\Tencent\qqmusic\QQMusic.exe" auto="True"/>
+</AppSet>
